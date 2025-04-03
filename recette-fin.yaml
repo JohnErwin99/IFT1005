@@ -24,7 +24,6 @@ régime:
   - végétarien
 parties:
   - partie: Tare (Sauce a tremper)
-    titre: Préparation de la sauce Tare
     ingrédients:
       - 1/2 tasse de sauce soya
       - 1/2 tasse de mirin
@@ -35,7 +34,6 @@ parties:
       - Ajouter la sauce soya et le dashi et porter de nouveau a ebullition
       - Reserver jusqua utilisation
   - partie: Sauce Unagi
-    titre: Préparation de la sauce Unagi
     ingrédients: 
       - 1/4 tasse de sauce sake
       - 1/4 tasse de sauce mirin
@@ -46,7 +44,6 @@ parties:
         - Baisser a feu moyen et ajouter la sauce soya e la cassonade
         - Laisser reduire jusqu'a ce que la sauce epaississe
   - partie: Laque misi-erable
-    titre: Préparation de la laque miso-érable
     ingrédients:
       - 2c. a soupe de miso blanc
       - 125ml de sirop d'erable
@@ -78,7 +75,6 @@ régime:
   - végétarien
 parties:
   - partie: Le crumble aux pistaches
-    titre: Préparation du crumble pistache
     ingrédients:
       - 20g de beurre vegetal Maison Le Grand non Salé
       - 20g de sucre de pistache en poudre
@@ -88,7 +84,6 @@ parties:
     étapes:
       - Sauter la prochaine partie
   - partie: Le cake yogourt-pistache
-    titre: Préparation du cake principal
     ingrédients:
       - 200g de yogourt vegane nature
       - 160g de cassonade
@@ -101,16 +96,16 @@ parties:
       - 4g de sel
     étapes:
       - Mélanger le yogourt et la cassonade.
-      - Ajouter le lait végétal, le vinaigre de cidre et l'huile. Mélanger à nouveau.
+      - Ajouter le lait végétal, le vinaigre de cidre et l’huile. Mélanger à nouveau.
       - Ajouter la farine, les pistaches en poudre, la poudre à pâte et le sel. Mélanger légèrement.
-      - Verser le mélange dans un moule graissé.
+      - Verser le mélange dans un moule graissé (moule à cake, moule à financier ou moule en forme de beigne).
       - Ajouter le crumble pistache directement sur le mélange à cake.
-      - Enfourner à 350°F 15 minutes environ.
+      - Enfourner à 350°F 15 minutes environ. Pour s’assurer d’une cuisson parfaite, le mieux est d’insérer un cure-dent dans le cake, s’il en ressort sec, le cake est cuit.
       - Démouler les cakes, seulement une fois refroidi.
 ---
 id: 3
 nom: Tortillas de base
-description: Deux ingrédients seulement pour cette pâte parfaite pour déjouer les intolérances au gluten
+description: Deux ingrédients seulement pour cette pâte parfaite pour déjouer les intolérances au gluten de la farine de maïs et de l’eau!
 auteur: Radio Canada
 image: https://images.radio-canada.ca/v1/ici-tele/16x9/5-chefs-dans-ma-cuisine-tortillas-de-base-19-novembre-2020.jpg
 source:
@@ -133,17 +128,16 @@ régime:
   - sans-gluten
 parties:
   - partie: Tortillas de maïs
-    titre: Préparation des tortillas
     ingrédients:
       - 500 ml de farine de maïs
       - 375 ml d'eau
     étapes:
-      - Dans un grand bol, mélangez la farine de maïs et l'eau.
-      - Pétrissez la pâte quelques minutes.
-      - Façonnez de petites boules de pâte.
-      - Faites chauffer une poêle antiadhésive.
-      - Pressez pour former des disques.
-      - Cuire 20 secondes de chaque côté.
+      - Dans un grand bol, mélangez la farine de maïs et l’eau.
+      - Pétrissez la pâte quelques minutes afin qu’elle ne colle plus aux mains. Façonnez de petites boules de pâte de la grosseur d’une balle de golf. Réservez.
+      - Faites chauffer une poêle antiadhésive ou en fonte à feu moyen de 2 à 3 minutes.
+      - Placez une petite boule de pâte entre 2 feuilles de pellicule plastique. Déposez la pâte au centre de la presse à tortillas (voir NOTE). Pressez afin de former un disque d’environ 12 cm (5 po) de diamètre.
+      - Déposez une tortilla à la fois dans la poêle bien chaude et faites cuire 20 secondes d’un côté. Retournez et faites cuire 20 secondes supplémentaires. Retournez encore et faites cuire quelques secondes de plus pour terminer la cuisson.
+      - Répétez l’opération avec les autres tortillas. Une fois cuites, réservez-les au chaud dans un linge propre et déposez-les dans un contenant hermétique.
 ---
 id: 4 
 nom: Harira
@@ -162,30 +156,32 @@ régime:
   - végétarien
 parties:
   - partie: Soupe
-    titre: Préparation de la Harira
     ingrédients:
-      - 250g de viande de bœuf ou d'agneau
+      - 250g de viande de bœuf ou d'agneau coupée en petits morceaux
       - 1 oignon haché
       - 2 tomates râpées
-      - 50g de pois chiches trempés
+      - 50g de pois chiches trempés la veille
       - 50g de lentilles
-      - 2 branches de céleri
-      - 1 bouquet de coriandre
-      - 1 bouquet de persil
+      - 2 branches de céleri hachées
+      - 1 bouquet de coriandre haché
+      - 1 bouquet de persil haché
       - 2 cuillères à soupe de concentré de tomate
       - 1 litre d'eau
-      - 50g de farine diluée
-      - Épices (curcuma, gingembre, poivre)
+      - 50g de farine diluée dans de l'eau
+      - 1 cuillère à café de curcuma
+      - 1 cuillère à café de gingembre
+      - 1 cuillère à café de poivre
+      - Sel selon goût
       - 2 cuillères à soupe d'huile d'olive
     étapes:
-      - Faire revenir la viande avec l'huile et l'oignon.
-      - Ajouter les tomates, céleri, herbes et épices.
+      - Faire revenir la viande avec l'huile d'olive et l'oignon dans une marmite.
+      - Ajouter les tomates, le céleri, la coriandre, le persil, les épices et bien mélanger.
       - Ajouter l'eau et porter à ébullition.
-      - Ajouter les pois chiches et cuire 30 minutes.
-      - Ajouter les lentilles et cuire 15 minutes.
-      - Incorporer le concentré de tomate.
-      - Ajouter la farine diluée pour épaissir.
-      - Laisser cuire encore 10 minutes.
+      - Ajouter les pois chiches et laisser mijoter 30 minutes.
+      - Ajouter les lentilles et continuer la cuisson 15 minutes.
+      - Ajouter le concentré de tomate dilué dans un peu d'eau et bien mélanger.
+      - Incorporer la farine diluée tout en remuant pour épaissir la soupe.
+      - Laisser cuire encore 10 minutes, puis servir chaud avec du citron.
 ---
 id: 5
 nom: Tajine de poulet aux citrons confits et olives
@@ -204,29 +200,32 @@ regime:
   - sans-gluten
 parties:
   - partie: Tajine
-    titre: Préparation du tajine
     ingrédients:
       - 1 poulet coupé en morceaux
-      - 2 citrons confits coupés
+      - 2 citrons confits coupés en quartiers
       - 100g d'olives vertes
       - 2 oignons émincés
       - 3 gousses d'ail hachées
-      - Épices (curcuma, gingembre, poivre)
-      - 1 bouquet de coriandre
-      - 1 bouquet de persil
+      - 1 cuillère à café de curcuma
+      - 1 cuillère à café de gingembre
+      - 1 cuillère à café de poivre
+      - Sel selon goût
+      - 1 bouquet de coriandre haché
+      - 1 bouquet de persil haché
       - 3 cuillères à soupe d'huile d'olive
       - 250ml d'eau
     étapes:
-      - Faire chauffer l'huile dans un tajine.
-      - Ajouter les oignons, l'ail et faire revenir.
-      - Ajouter le poulet et les épices.
-      - Ajouter l'eau, couvrir et mijoter 40 minutes.
-      - Ajouter les citrons confits et olives.
-      - Cuire encore 10 minutes.
+      - Faire chauffer l'huile d'olive dans un tajine ou une marmite.
+      - Ajouter les oignons, l'ail et faire revenir jusqu'à ce qu'ils soient translucides.
+      - Ajouter le poulet, les épices, le sel et bien mélanger.
+      - Ajouter l'eau, couvrir et laisser mijoter 40 minutes à feu doux.
+      - Ajouter les citrons confits, les olives, la coriandre et le persil.
+      - Laisser cuire encore 10 minutes.
+      - Servir chaud avec du pain marocain.
 ---
 id: 6 
 nom: Tajine de légumes
-description: Un tajine végétalien riche en saveurs avec des légumes de saison.
+description: Un tajine végétalien riche en saveurs avec des légumes de saison et des épices marocaines.
 portions: 4
 durée_cuisson: 35 min
 nutrition:
@@ -240,30 +239,34 @@ catégories:
 régime:
   - végétarien
 parties:
-  - partie: Tajine de légumes
-    titre: Préparation du tajine végétarien
+  - partie: Tajine de légumes     
     ingrédients:
-      - 2 carottes coupées
-      - 2 pommes de terre
-      - 1 courgette
-      - 1 poivron rouge
+      - 2 carottes coupées en rondelles
+      - 2 pommes de terre coupées en morceaux
+      - 1 courgette coupée en rondelles
+      - 1 poivron rouge coupé en lanières
       - 1 oignon émincé
       - 2 tomates râpées
-      - 3 gousses d'ail
-      - Épices (curcuma, gingembre, cumin, paprika)
-      - 1 bouquet de coriandre
-      - 1 bouquet de persil
+      - 3 gousses d'ail hachées
+      - 1 cuillère à café de curcuma
+      - 1 cuillère à café de gingembre
+      - 1 cuillère à café de cumin
+      - 1 cuillère à café de paprika
+      - Sel et poivre selon goût
+      - 1 bouquet de coriandre haché
+      - 1 bouquet de persil haché
       - 3 cuillères à soupe d'huile d'olive
       - 250ml d'eau
       - 100g de pois chiches cuits
     étapes:
-      - Faire chauffer l'huile dans un tajine.
-      - Ajouter l'oignon et l'ail.
-      - Ajouter les tomates et épices.
-      - Ajouter les carottes et pommes de terre.
-      - Ajouter un peu d'eau, cuire 15 minutes.
-      - Ajouter courgette, poivron et pois chiches.
-      - Couvrir et cuire 20 minutes.
+      - Faire chauffer l'huile d'olive dans un tajine ou une marmite.
+      - Ajouter l'oignon, l'ail et faire revenir jusqu'à ce qu'ils soient translucides.
+      - Ajouter les tomates, les épices et bien mélanger.
+      - Ajouter les carottes, les pommes de terre et un peu d'eau. Laisser mijoter 15 minutes.
+      - Ajouter la courgette, le poivron et les pois chiches.
+      - Couvrir et laisser cuire encore 20 minutes à feu doux.
+      - Ajouter la coriandre et le persil avant de servir.
+      - Servir chaud avec du pain marocain ou de la semoule.
 ---
 id: 7
 nom: Rfissa sans gluten
@@ -282,23 +285,24 @@ régime:
   - sans-gluten  
 parties:
   - partie: Rfissa
-    titre: Préparation de la Rfissa
     ingrédients:
-      - 1 poulet entier
+      - 1 poulet entier coupé en morceaux
       - 2 oignons émincés
       - 200g de lentilles
-      - Épices (curcuma, gingembre, poivre)
-      - 1 bouquet de coriandre
-      - 1 bouquet de persil
+      - 1 cuillère à café de curcuma
+      - 1 cuillère à café de gingembre
+      - 1 cuillère à café de poivre
+      - Sel selon goût
+      - 1 bouquet de coriandre haché
+      - 1 bouquet de persil haché
       - 3 cuillères à soupe d'huile d'olive
       - 500ml d'eau
       - Msemen sans gluten
     étapes:
-      - Faire revenir les oignons et épices.
+      - Faire chauffer l'huile d'olive et faire revenir les oignons et les épices.
       - Ajouter le poulet et laisser dorer.
-      - Ajouter l'eau et lentilles.
-      - Laisser mijoter 1h.
-      - Servir sur msemen sans gluten.
+      - Ajouter l'eau, les lentilles et laisser mijoter 1h.
+      - Servir chaud sur du msemen sans gluten.
 ---
 id: 8
 nom: Sellou sans gluten
@@ -317,15 +321,13 @@ régime:
   - sans-gluten  
 parties:
   - partie: Sellou
-    titre: Préparation du Sellou
     ingrédients:
-      - 200g d'amandes grillées
-      - 100g de graines de sésame
-      - 200g de farine de riz
+      - 200g d'amandes grillées et moulues
+      - 100g de graines de sésame grillées
+      - 200g de farine de riz grillée
       - 150g de miel
       - 100g de beurre fondu
       - 1 cuillère à café de cannelle
     étapes:
-      - Mélanger tous les ingrédients.
-      - Former une pâte homogène.
-      - Servir en petits tas ou moulé.
+      - Mélanger tous les ingrédients jusqu'à obtenir une pâte homogène.
+      - Servir sous forme de petits tas ou moulé dans un plat.

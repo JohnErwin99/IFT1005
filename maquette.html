@@ -1,93 +1,13 @@
 <html>
     <head>
         <title>Maquette de recettes</title>
+        <!-- lire/convertir du yaml-->
+        <!-- jsyaml.load() et jsyaml.dump() -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+        <script src="maquette.js"></script>
+        <link rel="stylesheet" href="style-large.css">
     </head>
-    <style>
-        /*Debut code css pour  la mise en page de grand ecran*/
-        /*barre de reacherche*/
-        .topnav {
-            background-color: #333;
-            display: flex;
-            justify-content: space-between;
 
-        }
-        .topnav div{
-            background-color: red;
-        }
-        .rechercher {
-            border: solid gold;
-
-        }
-        /*menu complet*/
-        .menucomplet {
-            background-color: blue;
-            text-align: center;
-        }
-        .listerecettes {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 10px;
-            
-        }
-        .listerecettes a{
-            color: white;
-        }
-        /*filtre regime*/
-        .filtreregime {
-            background-color: green;
-            text-align: center;
-
-        }
-        /*Affichage de recettes*/
-        .partie {
-            background-color: lightgray;
-            display: grid;
-            grid-template-rows: 2;
-            grid-template-columns: 0.5fr 0.5fr;
-            grid-template-areas: 
-            "titrerecette titrerecette"
-            "partie partie"
-            "ingredients etapes";
-            margin: 25px;
-            
-        }
-        .recettetitre{
-            grid-area: titrerecette;
-            text-align: center;
-        }
-        .partie{
-            grid-area: partie;
-        }
-        .recetteingredients{
-            grid-area: ingredients;
-            background-color: lightblue;
-            
-        }
-        .recetteetapes{
-            grid-area: etapes;
-            background-color: lightgreen;
-        }
-        .recettes {
-            background-color: orange;
-        }
-        .image {
-            width: 100%;
-            height: auto;
-        }
-        /*footer*/
-        .footer {
-            background-color: #333;
-            display: flex;
-            justify-content: space-between;
-
-        }
-        .footer div{
-            background-color: purple;
-        }
-
-        /*Debut code css pour la mise en page de pettit ecran */
-    </style>
-    
     <body>
         <!--Navigation-->
         <div class="topnav" id="haut">
@@ -96,94 +16,26 @@
                     <img src="https://ift1005.xyz/~ubuntu/exercice5/img/logo.svg" alt="Logo du site de recette" width="100" height="100">
                 </a>
             </div>
-            <div class="rechercher">
-                <input type="text" placeholder="Rechercher une recette...">
-                <button type="submit">Rechercher</button>
-            </div>
+            
         </div>
 
-        <div class="menucomplet">
+        <div id="menucomplet">
             <h1>Menu complet</h1>
             <div class="listerecettes">
-                <a href="#">Recette 1</a>
-                <a href="#">Recette 2</a>
-                <a href="#">Recette 3</a>
-                <a href="#">Recette 4</a>
-                <a href="#">Recette 5</a>
-                <a href="#">Recette 6</a>
+                <!--Contenu generer dynbamiquement , voir la function javasacript: creermenucomplethtml()-->
             </div>
         </div>
         <div class="filtreregime">
             <h2>Filtrer par régime</h2>
             <select name="regime" id="regime">
-                <option value="vegetarien">Végétarien</option>
-                <option value="sans gluten">Sans gluten</option>
+                <option value="all">Voir tout</option>
+                <option value="végétarien">Végétarien</option>
+                <option value="sans-gluten">Sans gluten</option>
             </select>
-            <button type="submit">Appliquer</button>
         </div>
-        <div class="affichagerecettes">
-            <div class="recettes">
-                <h2 class="recettetitre">Yakitori de saumon</h2>
-                <img class="image" src="https://tastet.ca/wp-content/uploads/2024/11/hono-yakitori-poulet.jpg" alt="Yakitori de saumon" width="300" height="200">
-                <div class="partie">
-                    <h3 class="recettetitre">Tare</h3>
-                    <p class="recetteingredients">- 1/2 tasse de sauce soya
-                        - 1/2 tasse de mirin
-                        - 1/2 tasse de sake
-                        - 1/4 tasse de sucre</p>
-                    <p class="recetteetapes">Dans une casserole, porter a ebulittion le sake et le mirin.
-                        - Ajouter la sauce soya et le dashi et porter de nouveau a ebullition
-                        - Reserver jusqua utilisation
-                    </p>
-                </div>
-                <div class="partie">
-                    <h3 class="recettetitre">Sauce Unagi</h3>
-                    <p class="recetteingredients"> - 1/4 tasse de sauce sake
-                        - 1/4 tasse de sauce mirin
-                        - 1/4 tasse de sauce soya
-                        - 1/4 tasse de cassonade</p>
-                    <p class="recetteetapes"> Dans une casserole, porter a ebulittion le sake et le mirin.
-                        - Baisser a feu moyen et ajouter la sauce soya e la cassonade
-                        - Laisser reduire jusqu'a ce que la sauce epaississe
-                    </p>
-                </div>
-                <div class="partie">
-                    <h3 class="recettetitre">Laque misi-erable</h3>
-                    <p class="recetteingredients"> - 1/4 tasse de sauce sake
-                        - 1/4 tasse de sauce mirin
-                        - 1/4 tasse de sauce soya
-                        - 1/4 tasse de cassonade</p>
-                    <p class="recetteetapes"> Dans une casserole, porter a ebulittion le sake et le mirin.
-                        - Baisser a feu moyen et ajouter la sauce soya e la cassonade
-                        - Laisser reduire jusqu'a ce que la sauce epaississe
-                    </p>
-                </div>
-            </div>
-             <!--Recette 2-->
-            <div class="recettes">
-                <h2 class="recettetitre">Rfissa sans gluten</h2>
-                <img class="image" src="https://fr.le360.ma/resizer/v2/https%3A%2F%2Fcloudfront-eu-central-1.images.arcpublishing.com%2Fle360%2FMWONJ3MJS5HZPNOBNFSF7HAWRE.jpg?auth=ef85a5ee8d3feb6d4abe865303fbea4be4cbb69a63c0835066eaab1aa3209497&width=1216" alt="Sellou sans gluten" width="300" height="200">
-                <div class="partie">
-                    <h3 class="recettetitre">Rfissa</h3>
-                    <p class="recetteingredients"> - 1 poulet entier coupÃ© en morceaux
-                        - 2 oignons Ã©mincÃ©s
-                        - 200g de lentilles
-                        - 1 cuillÃ¨re Ã  cafÃ© de curcuma
-                        - 1 cuillÃ¨re Ã  cafÃ© de gingembre
-                        - 1 cuillÃ¨re Ã  cafÃ© de poivre
-                        - Sel selon goÃ»t
-                        - 1 bouquet de coriandre hachÃ©
-                        - 1 bouquet de persil hachÃ©
-                        - 3 cuillÃ¨res Ã  soupe d'huile d'olive
-                        - 500ml d'eau
-                        - Msemen sans gluten</p>
-                    <p class="recetteetapes">  - Faire chauffer l'huile d'olive et faire revenir les oignons et les Ã©pices.
-                        - Ajouter le poulet et laisser dorer.
-                        - Ajouter l'eau, les lentilles et laisser mijoter 1h.
-                        - Servir chaud sur du msemen sans gluten.
-                    </p>
-                </div>
-            </div>
+        <div id="affichagerecettes"a>
+            <!--Contenu generer dynbamiquement , voir la function javasacript: creerrecetteshtml()-->
+
 
         </div>
 
